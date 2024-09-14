@@ -1,0 +1,9 @@
+rmemre - reMarkable EMR eraser
+
+Very small utility to remap BTN_STYLUS events to BTN_TOOL_RUBBER on the
+reMarkable 2 tablet. The intended usecase is to allow the user to select
+the eraser by keeping the stylus button pressed.
+
+Full credit to https://github.com/slotThe/RemarkableLamyEraser for the
+implementation this is inspired by, but it had too many features for my
+liking so I've written this significantly simpler utility instead.

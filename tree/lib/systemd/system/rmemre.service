@@ -1,0 +1,11 @@
+[Unit]
+Description=reMarkable EMR eraser
+After=xochitl.service
+
+[Service]
+ExecStart=/usr/local/libexec/rmemre
+Type=exec
+Restart=on-abnormal
+
+[Install]
+WantedBy=multi-user.target
